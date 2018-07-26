@@ -1,12 +1,18 @@
+struct colour{
+  float vStart;
+  float vEnd;
+  float brightness;
+};
+
 struct channel{
-  int red;
-  int green;
-  int blue;
+  colour red;
+  colour green;
+  colour blue;
 };
 
 void setup() {
   //setup channels
-
+  channel ch0;
 }
 
 void loop() {
