@@ -1,7 +1,11 @@
-
+struct channel{
+  int red;
+  int green;
+  int blue;
+};
 
 void setup() {
-  // put your setup code here, to run once:
+  //setup channels
 
 }
 
