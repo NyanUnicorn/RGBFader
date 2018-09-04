@@ -20,6 +20,12 @@ void setup() {
 }
 
 
+void justWait (uint32_t period)
+{
+  for (uint32_t z = 0; z<period; z++) __asm__("nop\n\t");  
+}
+
+
 void loop() {
   r = r + rfade;
   if (r <= 0.0f || r >= 255.0f) {
